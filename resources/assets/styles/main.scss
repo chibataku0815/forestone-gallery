@@ -1,0 +1,70 @@
+/**
+ * Import npm dependencies
+ *
+ * Prefix your imports with `~` to grab from node_modules/
+ * @see https://github.com/webpack-contrib/sass-loader#imports
+ */
+// @import "~some-node-module";
+@import "~material-design-lite/src/_color-definitions.scss";
+@import "~hiraku/scss/hiraku";
+@import "~remodal/dist/remodal-default-theme";
+@import "~remodal/dist/remodal";
+// @import "~slick-carousel/slick/slick.scss";
+// @import "~slick-carousel/slick/slick-theme.scss";
+
+// variables setting
+@import "variables/common-config";
+@import "variables/color-config";
+@import "variables/font-config";
+@import "variables/grid-config";
+
+// common setting
+@import "common/mixin";
+@import "common/global";
+@import "common/grid";
+@import "common/color";
+
+/** layouts */
+@import "layouts/header";
+@import "layouts/sidebar";
+@import "layouts/footer";
+
+/** components */
+@import "components/background";
+@import "components/breadcrumbs";
+@import "components/buttons";
+@import "components/card";
+@import "components/chip";
+@import "components/contact";
+@import "components/copyright";
+@import "components/comments";
+@import "components/faq";
+@import "components/forms";
+@import "components/icon";
+@import "components/inner";
+@import "components/logo";
+@import "components/main-visual";
+@import "components/navigation";
+@import "components/pagetop";
+@import "components/privacy";
+@import "components/scroll-x";
+@import "components/tel";
+@import "components/text-box";
+@import "components/text";
+@import "components/title";
+@import "components/wrapper";
+
+/** js */
+@import "js/hiraku";
+@import "js/hiraku";
+@import "js/toggle";
+@import "js/slick";
+@import "js/dropdown";
+
+// wordpressbem例外対応
+@import "wordpress/contact-form-7";
+@import "wordpress/wp-classes";
+@import "wordpress/js-dropdown";
+
+/** untility */
+@import "common/flex";

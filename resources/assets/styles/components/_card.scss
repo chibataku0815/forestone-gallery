@@ -1,0 +1,60 @@
+.card {
+  border: 1px solid unquote("rgba(#{$color-black}, .1)");
+  @include vender(box-shadow,  0 1px 0 0 unquote("rgba(#{$palette-grey-100}, 1)"));
+
+  &--radius {
+    border-radius: 5px;
+  }
+
+  &--accent-dark {
+    background-color: unquote("rgba(#{$color-accent-dark}, 1)");
+  }
+
+  &--simple {
+    background-color: unquote("rgba(#{$color-white}, 1)");
+    color: unquote("rgba(#{$color-black}, .8)");
+  }
+
+  &__title {
+    padding: 10px 0 5px;
+    background-color: unquote("rgba(#{$color-primary-dark}, 1)");
+    font-size: 3rem;
+    @include vender(display, flex);
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__title-text {
+    color: unquote("rgba(#{$color-white}, 1)");
+    font-weight: bold;
+  }
+
+  &__text {
+    margin: 5px;
+    min-height: 85px;
+    background: unquote("rgba(#{$color-white}, 1)");
+    border-bottom: 1px dotted unquote("rgba(#{$color-primary-dark}, 1)");
+
+    @include query(tablet) {
+      min-height: fit-content;
+    }
+  }
+
+  &__strong-text {
+    font-size: 3rem;
+    font-weight: bold;
+  }
+
+  &__sub-text {
+    padding: 10px;
+    font-size: 0.5rem;
+    @include vender(display, flex);
+    justify-content: center;
+    align-items: center;
+
+    @include query(tablet) {
+      padding: 10px;
+      min-height: fit-content;
+    }
+  }
+}

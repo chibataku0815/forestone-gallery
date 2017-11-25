@@ -1,0 +1,35 @@
+@mixin vender($property, $value) {
+  @each $prefix in -webkit-, -moz-, -ms-, -o-, -js-, "" {
+    #{$prefix}#{$property}: $value;
+  }
+}
+@mixin font-size($font_size: 10) {
+  font-size: $font_size * 1px;
+  font-size: get_vw($font_size);
+
+  @media all and (min-width: 769px) {
+    font-size: $font_size * 1px;
+  }
+}
+@mixin gradient-top-lighten($color: $hoge, $lighten: 10) {
+  background-color: $color;
+
+  @include background-image(linear-gradient(lighten($color, $lighten) 0%, $color 100%));
+}
+@mixin gradient-top-darken($color: $hoge, $darken: 10) {
+  background-color: $color;
+
+  @include background-image(linear-gradient(darken($color, $darken) 0%, $color 100%));
+}
+@mixin query($breakpoint: tablet) {
+  @media #{map-get($av-breakpoints, $breakpoint)} {
+    @content;
+  }
+}
+@mixin material-icons {
+  font-family: "Material Icons";
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: "liga";
+}

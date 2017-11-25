@@ -1,0 +1,24 @@
+.title {
+  margin: 0 0 20px;
+  padding: 10px;
+  font-size: 22px;
+
+  &--no-margin {
+    margin: 0;
+  }
+
+  &--border {
+    position: relative;
+    border-top: 2px solid unquote("rgba(#{$palette-grey-200}, 1)");
+    border-bottom: 1px solid unquote("rgba(#{$color-black}, .1)");
+
+    &::after {
+      width: 40%;
+      content: "";
+      border-top: 2px solid unquote("rgba(#{$color-primary-dark}, 1)");
+      position: absolute;
+      top: -2px;
+      left: 0;
+    }
+  }
+}

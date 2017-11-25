@@ -1,0 +1,14 @@
+.copyright {
+  @include vender(transform, rotate(90deg));
+  position: fixed;
+  left: -35vh;
+  top: 50vh;
+  font-size: 3vh;
+
+  @include query(tablet) {
+    padding: 10px;
+    font-size: 1rem;
+    @include vender(transform, rotate(0deg));
+    position: static;
+  }
+}

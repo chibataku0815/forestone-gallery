@@ -1,0 +1,22 @@
+.breadcrumbs {
+  padding: 10px;
+  background: unquote("rgba(#{$palette-grey-100}, 1)");
+  @include vender(display, flex);
+  align-items: center;
+  flex-wrap: wrap;
+
+  @include query(desktop) {
+    display: -webkit-box;
+    margin: 0;
+  }
+
+  &__item {
+    color: unquote("rgba(#{$palette-grey-500}, 1)");
+    @include vender(display, flex);
+    flex-wrap: wrap;
+  }
+
+  &__link {
+    color: unquote("rgba(#{$palette-grey-700}, 1)");
+  }
+}

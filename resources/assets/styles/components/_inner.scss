@@ -1,0 +1,26 @@
+.inner {
+  width: 1100px;
+  max-width: 80%;
+  margin: 0 auto;
+
+  @include query(tablet) {
+    max-width: 100%;
+    padding: 0 2vw;
+  }
+
+  &--space {
+    padding: 50px 0;
+
+    @include query(tablet) {
+      padding: 2vw 0;
+    }
+  }
+
+  &--small-space {
+    padding: 8px 0 0;
+
+    @include query(tablet) {
+      padding: 1vw 0;
+    }
+  }
+}

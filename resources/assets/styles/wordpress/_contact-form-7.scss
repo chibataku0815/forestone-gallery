@@ -1,0 +1,40 @@
+/* デザインカスタマイズ */
+
+/* エラー個所をわかりやすく表示 */
+.wpcf7 {
+  .wpcf7-not-valid {
+    background: unquote("rgba(#{$palette-red-50}, .8)");
+  }
+
+  .wpcf7-response-output {
+    margin: 10px 0 0;
+    padding: 8px 35px 8px 14px;
+  }
+
+  .wpcf7-validation-errors {
+    color: unquote("rgba(#{$palette-red-300}, .8)");
+    order: 1px solid unquote("rgba(#{$palette-red-100}, .8)");
+    background: unquote("rgba(#{$palette-red-50}, .8)");
+  }
+
+  .wpcf7-mail-sent-ok {
+    color: unquote("rgba(#{$color-white}, 1)");
+    border: none;
+    background-color: unquote("rgba(#{$color-black}, 1)");
+  }
+
+  /* 必須赤色表示 */
+  .required {
+    color: unquote("rgba(#{$palette-red-300}, .8)");
+  }
+
+  .wpcf7-validation-errors {
+    border: none;
+  }
+}
+
+.sent {
+  .contact-form-7 {
+    display: none;
+  }
+}

@@ -1,0 +1,18 @@
+.faq {
+  padding: 10px;
+
+  &__title {
+    @include vender(display, flex);
+    justify-content: space-between;
+    align-items: center;
+    color: unquote("rgba(#{$color-primary-dark}, 1)");
+    font-size: 1.5rem;
+    border-bottom: 1px solid unquote("rgba(#{$color-black}, .1)");
+    cursor: pointer;
+  }
+
+  &__text {
+    padding: 10px;
+    background: unquote("rgba(#{$color-black}, .01)");
+  }
+}

@@ -1,0 +1,32 @@
+.sidebar {
+  &__bunner {
+    width: 240px\0;
+    max-width: 100%;
+    margin: 10px 0;
+
+    &:first-child {
+      margin: 0 0 10px;
+    }
+  }
+
+  &__title {
+    width: 100%;
+    margin: 10px;
+    padding: 10px;
+    border-top: 2px solid unquote("rgba(#{$color-primary-dark}, 1)");
+    border-bottom: 1px solid unquote("rgba(#{$color-black}, .1)");
+    @include vender(display, flex);
+    font-weight: bold;
+  }
+
+  &__child {
+    width: 100%;
+    padding: 0 20px;
+    @include vender(display, flex);
+    flex-direction: column;
+  }
+
+  &__child-item {
+    border-bottom: 1px solid unquote("rgba(#{$color-black}, .1)");
+  }
+}

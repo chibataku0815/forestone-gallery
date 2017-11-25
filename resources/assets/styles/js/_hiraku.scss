@@ -1,0 +1,56 @@
+.js-hiraku {
+  &__list {
+    width: 100%;
+    padding: 10px;
+    @include vender(display, flex);
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid unquote("rgba(#{$palette-grey-300}, 1)");
+    color: unquote("rgba(#{$color-black}, 1)");
+  }
+
+  &__sub-list {
+    width: 100%;
+    padding: 10px 10px 10px 20px;
+    @include vender(display, flex);
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid unquote("rgba(#{$palette-grey-100}, 1)");
+    color: unquote("rgba(#{$color-black}, 1)");
+    font-size: 14px;
+  }
+}
+
+.hiraku-open-btn-line {
+  &::before,
+  &::after {
+    background: unquote("rgba(#{$color-white}, 1)");
+  }
+
+  &::after {
+    width: 25px;
+  }
+}
+
+.js-hiraku-offcanvas-btn {
+  background: none;
+  border: none;
+  @include vender(display, flex);
+  @include vender(align-items, center);
+  justify-content: center;
+  cursor: pointer;
+}
+
+.js-hiraku-offcanvas-active .js-hiraku-offcanvas-sidebar {
+  width: $side-menu-width;
+  @include query(lap-and-up) {
+    width: $side-menu-width / 2;
+  }
+}
+
+.js-hiraku-offcanvas-body-right {
+  left: (- $side-menu-width);
+  @include query(lap-and-up) {
+    left: (- $side-menu-width) / 2;
+  }
+}

@@ -1,0 +1,9 @@
+.text {
+  line-height: 1.8;
+
+  &--underline {
+    text-decoration-line: underline;
+    text-decoration-style: dotted;
+    text-decoration-color: unquote("rgba(#{$palette-pink-200}, 1)");
+  }
+}

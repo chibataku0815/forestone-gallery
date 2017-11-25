@@ -1,0 +1,16 @@
+.text-box {
+  padding: 10px;
+  border: 1px solid unquote("rgba(#{$color-primary-dark}, 1)");
+  position: relative;
+
+  &::before {
+    width: 5px;
+    height: 120px;
+    max-height: 100%;
+    content: '';
+    background: unquote("rgba(#{$color-primary-dark}, 1)");
+    position: absolute;
+    top: 0;
+    left: -2px;
+  }
+}

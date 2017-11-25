@@ -1,0 +1,23 @@
+.contact {
+  width: 100px;
+  height: 100px;
+  padding-right: 5px;
+  background: linear-gradient(to bottom right, unquote("rgba(#{$color-black}, 0)") 50%, unquote("rgba(#{$color-black}, 1)") 50.5%) no-repeat top left/100% 100%;
+  color: unquote("rgba(#{$color-white}, 1)");
+  @include vender(display, flex);
+  @include vender(align-items, flex-end);
+  justify-content: flex-end;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  cursor: pointer;
+
+  @include query(tablet) {
+    width: inherit;
+    height: inherit;
+    padding: 10px;
+    position: static;
+    background: unquote("rgba(#{$color-black}, 1)");
+    @include vender(align-items, center);
+  }
+}

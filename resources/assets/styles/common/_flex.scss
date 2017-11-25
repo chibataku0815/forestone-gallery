@@ -1,0 +1,158 @@
+.flex {
+  @include vender(display, flex);
+
+  &--center {
+    @include vender(align-items, center);
+    justify-content: center;
+  }
+
+  &--center-tablet {
+    @include query(tablet) {
+      @include vender(align-items, center);
+      justify-content: center;
+    }
+  }
+
+  &--center-phone {
+    @include query(phone) {
+      @include vender(align-items, center);
+      justify-content: center;
+    }
+  }
+
+  &--row-right {
+    flex-direction: row;
+    @include vender(align-items, center);
+    justify-content: flex-end;
+  }
+
+  &--row-right-tablet {
+    @include query(tablet) {
+      flex-direction: row;
+      @include vender(align-items, center);
+      justify-content: flex-end;
+    }
+  }
+
+  &--row-right-phone {
+    @include query(phone) {
+      flex-direction: row;
+      @include vender(align-items, center);
+      justify-content: flex-end;
+    }
+  }
+
+  &--row-left {
+    flex-direction: row;
+    justify-content: flex-start;
+    @include vender(align-items, center);
+  }
+
+  &--row-left-tablet {
+    @include query(tablet) {
+      flex-direction: row;
+      @include vender(align-items, center);
+      justify-content: flex-start;
+    }
+  }
+
+  &--row-left-phone {
+    @include query(phone) {
+      flex-direction: row;
+      @include vender(align-items, center);
+      justify-content: flex-start;
+    }
+  }
+
+  &--row-top {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  &--row-bottom {
+    flex-direction: row;
+    align-items: flex-end;
+  }
+
+  &--column-center {
+    flex-direction: column;
+    @include vender(align-items, center);
+    justify-content: center;
+  }
+
+  &--column-center-tablet {
+    @include query(tablet) {
+      flex-direction: column;
+      @include vender(align-items, center);
+      justify-content: center;
+    }
+  }
+
+  &--column-center-phone {
+    @include query(phone) {
+      flex-direction: column;
+      @include vender(align-items, center);
+      justify-content: center;
+    }
+  }
+
+  &--column-left {
+    flex-direction: column;
+    @include vender(align-items, flex-start);
+    justify-content: center;
+  }
+
+  &--column-left-tablet {
+    @include query(tablet) {
+      flex-direction: column;
+      @include vender(align-items, flex-start);
+      justify-content: center;
+    }
+  }
+
+  &--column-left-phone {
+    @include query(phone) {
+      flex-direction: column;
+      @include vender(align-items, flex-start);
+      justify-content: center;
+    }
+  }
+
+  &--column-right {
+    flex-direction: column;
+    @include vender(align-items, flex-end);
+    justify-content: center;
+  }
+
+  &--column-right-tablet {
+    @include query(tablet) {
+      flex-direction: column;
+      @include vender(align-items, flex-end);
+      justify-content: center;
+    }
+  }
+
+  &--column-right-phone {
+    @include query(phone) {
+      flex-direction: column;
+      @include vender(align-items, flex-end);
+      justify-content: center;
+    }
+  }
+
+  &--space-between {
+    justify-content: space-between;
+  }
+
+  &--space-around {
+    justify-content: space-around;
+  }
+
+  &--vertical-center {
+    @include vender(align-items, center);
+  }
+
+  &--no-wrap-phone {
+    flex-wrap: nowrap;
+  }
+}

@@ -1,0 +1,9 @@
+.privacy {
+  @include vender(display, flex);
+  justify-content: flex-start;
+  align-items: center;
+
+  &__image {
+    max-width: 120px;
+  }
+}

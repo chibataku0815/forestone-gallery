@@ -1,0 +1,11 @@
+// wp_list_pages対応
+
+.js-dropdown {
+  &__child {
+    a {
+      width: 100%;
+      padding: 10px;
+      @include vender(display, flex);
+    }
+  }
+}

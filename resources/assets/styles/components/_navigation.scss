@@ -1,0 +1,35 @@
+.navigation {
+  height: 55px;
+
+  @include vender(display, flex);
+  justify-content: space-between;
+
+  &--hide-phone {
+    @include query(tablet) {
+      display: none;
+    }
+  }
+
+  &__item {
+    width: calc(100% / 5);
+    @include vender(display, flex);
+    justify-content: center;
+    align-items: center;
+    color: unquote("rgba(#{$color-black}, 1)");
+    font-size: 12px;
+    font-weight: bold;
+    border-bottom: 3px solid unquote("rgba(#{$color-white}, 1)");
+    @include vender(transition, 0.6s);
+    cursor: pointer !important;
+
+    &:hover {
+      color: unquote("rgba(#{$color-primary-dark}, 1)");
+      border-bottom: 3px solid unquote("rgba(#{$color-primary-dark}, 1)");
+    }
+
+    &--sign-up {
+      background: unquote("rgba(#{$color-accent-dark}, 1)");
+      color: unquote("rgba(#{$color-white}, 1)");
+    }
+  }
+}

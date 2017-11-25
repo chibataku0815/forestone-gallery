@@ -1,0 +1,156 @@
+{
+  "name": "forestone-gallery",
+  "version": "1.0.0",
+  "author": "Forestone",
+  "homepage": "https://forestone.co.jp",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "bugs": {
+    "url": ""
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://opensource.org/licenses/MIT"
+    }
+  ],
+  "browserslist": [
+    "last 2 versions",
+    "android 4",
+    "opera 12"
+  ],
+  "eslintConfig": {
+    "root": true,
+    "extends": "eslint:recommended",
+    "globals": {
+      "wp": true
+    },
+    "env": {
+      "node": true,
+      "es6": true,
+      "amd": true,
+      "browser": true,
+      "jquery": true
+    },
+    "parserOptions": {
+      "ecmaFeatures": {
+        "globalReturn": true,
+        "generators": false,
+        "objectLiteralDuplicateProperties": false,
+        "experimentalObjectRestSpread": true
+      },
+      "ecmaVersion": 2017,
+      "sourceType": "module"
+    },
+    "plugins": [
+      "import"
+    ],
+    "settings": {
+      "import/core-modules": [],
+      "import/ignore": [
+        "node_modules",
+        "\\.(coffee|scss|css|less|hbs|svg|json)$"
+      ]
+    },
+    "rules": {
+      "comma-dangle": [
+        "error",
+        {
+          "arrays": "always-multiline",
+          "objects": "always-multiline",
+          "imports": "always-multiline",
+          "exports": "always-multiline",
+          "functions": "ignore"
+        }
+      ]
+    }
+  },
+  "stylelint": {
+    "extends": "stylelint-config-standard",
+    "rules": {
+      "declaration-empty-line-before": [
+        "never",
+        {}
+      ],
+      "at-rule-empty-line-before": [
+        "never",
+        {
+          "except": [],
+          "ignore": [
+            "inside-block"
+          ]
+        }
+      ],
+      "no-empty-source": null
+    }
+  },
+  "scripts": {
+    "build": "webpack --progress --config resources/assets/build/webpack.config.js",
+    "build:production": "webpack --progress -p --config resources/assets/build/webpack.config.js",
+    "build:profile": "webpack --progress --profile --json --config resources/assets/build/webpack.config.js",
+    "start": "webpack --hide-modules --watch --config resources/assets/build/webpack.config.js",
+    "rmdist": "rimraf dist",
+    "lint": "npm run -s lint:scripts && npm run -s lint:styles",
+    "lint:scripts": "eslint resources/assets/scripts resources/assets/build",
+    "lint:styles": "stylelint \"resources/assets/styles/**/*.{css,sass,scss,sss,less}\"",
+    "test": "npm run -s lint"
+  },
+  "engines": {
+    "node": ">= 6.9.4"
+  },
+  "devDependencies": {
+    "autoprefixer": "~7.1",
+    "browser-sync": "~2.18",
+    "browsersync-webpack-plugin": "^0.6.0",
+    "bs-html-injector": "~3.0",
+    "buble-loader": "^0.4.1",
+    "cache-loader": "~1.0",
+    "clean-webpack-plugin": "^0.1.16",
+    "copy-globs-webpack-plugin": "^0.2.0",
+    "css-loader": "^0.28.4",
+    "cssnano": "^3.10.0",
+    "eslint": "",
+    "eslint-loader": "",
+    "eslint-plugin-import": "",
+    "extract-text-webpack-plugin": "~3.0",
+    "file-loader": "^0.11.2",
+    "friendly-errors-webpack-plugin": "^1.6.1",
+    "imagemin-mozjpeg": "~6.0",
+    "imagemin-webpack-plugin": "~1.5.0-beta.0",
+    "import-glob": "~1.5",
+    "node-sass": "^4.7.2",
+    "postcss-loader": "~2.0",
+    "postcss-safe-parser": "~3.0",
+    "resolve-url-loader": "~2.1",
+    "rimraf": "~2.6",
+    "sass-loader": "~6.0",
+    "style-loader": "^0.18.2",
+    "stylelint": "^8.1.1",
+    "stylelint-config-standard": "~16.0",
+    "stylelint-webpack-plugin": "^0.8.0",
+    "url-loader": "^0.5.9",
+    "webpack": "~3.3",
+    "webpack-assets-manifest": "^0.7.0",
+    "webpack-dev-middleware": "~1.11",
+    "webpack-hot-middleware": "~2.18",
+    "webpack-merge": "~4.1",
+    "yargs": "~8.0"
+  },
+  "dependencies": {
+    "bootstrap": "^4.0.0-beta",
+    "eslint-config-airbnb": "^15.1.0",
+    "eslint-plugin-jsx-a11y": "^5.1.",
+    "eslint-plugin-react": "^7.3.0",
+    "hiraku": "^1.0.5",
+    "jquery": "1.12.4 - 3",
+    "jquery.hoverformenu": "^1.0.0",
+    "material-design-lite": "^1.3.0",
+    "popper.js": "^1.11.0",
+    "remodal": "^1.1.1",
+    "slick-carousel": "^1.8.1",
+    "superfish": "^1.7.9"
+  }
+}

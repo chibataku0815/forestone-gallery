@@ -1,0 +1,26 @@
+.js-dropdown {
+  position: relative;
+
+  & > &__parent {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    top: 55px;
+    left: 0;
+    z-index: 10;
+    display: none;
+
+    &--visible {
+      display: flex;
+    }
+  }
+
+  &__child {
+    width: 100%;
+    background: unquote("rgba(#{$color-white}, 1)");
+    border-bottom: 1px solid unquote("rgba(#{$color-primary-dark}, 1)");
+    @include vender(display, flex);
+  }
+}

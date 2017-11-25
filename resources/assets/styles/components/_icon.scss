@@ -1,0 +1,10 @@
+.icon {
+  font-size: 4rem !important;
+
+  &--navi {
+    @include vender(display, flex);
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}

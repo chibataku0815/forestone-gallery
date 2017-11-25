@@ -1,0 +1,24 @@
+.button {
+  border: 1px solid unquote("rgba(#{$color-primary-dark}, 1)");
+  background: unquote("rgba(#{$color-white}, 1)");
+  @include vender(display, flex);
+  justify-content: center;
+  align-items: center;
+  color: unquote("rgba(#{$color-primary-dark}, 1)");
+  font-size: 1.5rem;
+  font-weight: bold;
+
+  @include query(tablet) {
+    margin: 2vw;
+    line-height: 1.5;
+  }
+
+  &:hover {
+    background: unquote("rgba(#{$color-primary-dark}, 1)");
+    color: unquote("rgba(#{$color-white}, 1)");
+  }
+
+  &__icon {
+    font-size: 3rem;
+  }
+}

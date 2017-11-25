@@ -1,0 +1,27 @@
+.alignnone {
+  margin-left: 0;
+  margin-right: 0;
+  max-width: 100%;
+  height: auto;
+}
+
+.aligncenter {
+  display: block;
+  margin: ($av-gutter / 2) auto;
+  height: auto;
+}
+
+.alignleft,
+.alignright {
+  margin-bottom: ($av-gutter / 2);
+  height: auto;
+}
+
+.page_item {
+  border-bottom: 1px solid unquote("rgba(#{$color-black}, .1)");
+  opacity: 0.6;
+}
+
+.current_page_item {
+  opacity: 1;
+}

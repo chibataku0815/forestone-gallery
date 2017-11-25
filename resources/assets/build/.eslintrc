@@ -1,0 +1,17 @@
+{
+  "root": false,
+  "rules": {
+    "import/no-extraneous-dependencies": 0,
+    "at-rule-empty-line-before": 0,
+    "prefer-rest-params": 0,
+    "no-extra-semi": "warn",
+    "comma-dangle": ["error", {
+      "arrays": "always-multiline",
+      "objects": "always-multiline",
+      "imports": "always-multiline",
+      "exports": "always-multiline",
+      "functions": "ignore",
+      "prefer-const": 0,
+    }]
+  }
+}
