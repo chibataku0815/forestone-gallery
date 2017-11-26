@@ -20,11 +20,10 @@ if ( $cb_qry->have_posts() ) : while ( $cb_qry->have_posts() ) : $cb_qry->the_po
 
         <h2 class="cb-post-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
 
-        <?php cb_byline( $cb_post_id ); ?>
-
-        <div class="cb-excerpt"><?php echo cb_clean_excerpt( 160 ); ?></div>
-
         <?php cb_post_meta( $cb_post_id ); ?>
+        <div class="cb-button cb-black cb-big cb-center">
+          <a href="<?php the_field('custom_url'); ?>" target="_blank" rel="nofollow" style="margin:10px;">Go To SITE</a>
+        </div>
 
     </div>
 
