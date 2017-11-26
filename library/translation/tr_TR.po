@@ -1,0 +1,737 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: 15Zine 1.0\n"
+"POT-Creation-Date: 2016-11-22 21:19-0000\n"
+"PO-Revision-Date: 2016-11-22 22:10+0200\n"
+"Last-Translator: \n"
+"Language-Team: Kymkypn <eksot1@hotmail.com>\n"
+"Language: tr_TR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.11\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;esc_html_e;gettext;gettext_noop;_n:1,2\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-SearchPathExcluded-0: ../library/admin\n"
+"X-Poedit-SearchPathExcluded-1: ../option-tree\n"
+"X-Poedit-SearchPathExcluded-2: ../plugins/login-with-ajax\n"
+"X-Poedit-SearchPathExcluded-3: ../buddypress\n"
+"X-Poedit-SearchPathExcluded-4: ../bbpress\n"
+"X-Poedit-SearchPathExcluded-5: ../woocommerce\n"
+
+#: ../404.php:10
+msgid "Page not found... Oops!"
+msgstr "Sayfa bulunamadı!"
+
+#: ../404.php:11
+msgid "Page not found. Please try using the search box below."
+msgstr "Sayfa bulunamadı. Lütfen aşağıdaki arama kutusunu kullanmayı deneyin"
+
+#: ../bbpress/form-search.php:14
+msgid "Search for:"
+msgstr "Arama:"
+
+#: ../bbpress/form-search.php:16 ../searchform.php:3
+msgid "Search.."
+msgstr "Ara.."
+
+#: ../buddypress.php:10
+msgid "Member"
+msgstr "Üye"
+
+#: ../buddypress.php:14
+msgid "Group"
+msgstr "Grup"
+
+#: ../buddypress.php:18 ../buddypress.php:34 ../library/core.php:2373 ../library/core.php:2375
+msgid "Groups"
+msgstr "Gruplar"
+
+#: ../buddypress.php:22
+msgid "Settings"
+msgstr "Ayarlar"
+
+#: ../buddypress.php:26
+msgid "Forums"
+msgstr "Forumlar"
+
+#: ../buddypress.php:30 ../buddypress.php:42
+msgid "Activity"
+msgstr "Aktivite"
+
+#: ../buddypress.php:34 ../buddypress.php:38
+msgid "Create a Group"
+msgstr "Bir Grup Kur"
+
+#: ../buddypress/activity/entry.php:37
+msgid "In reply to: "
+msgstr "Cevap olarak"
+
+#: ../buddypress/activity/entry.php:37
+msgid "View Thread / Permalink"
+msgstr "Konuyu Göster / Permalink"
+
+#: ../buddypress/activity/entry.php:37
+msgid "View"
+msgstr "Görünüm"
+
+#: ../buddypress/activity/entry.php:60
+#, php-format
+msgid "Comment <span>%s</span>"
+msgstr "Yorum <span>%s</span>"
+
+#: ../buddypress/activity/entry.php:68
+msgid "Favorite"
+msgstr "Favori"
+
+#: ../buddypress/activity/entry.php:72
+msgid "Remove Favorite"
+msgstr "Favorilerden Kaldır"
+
+#: ../buddypress/activity/entry.php:104
+msgid "Post"
+msgstr "Gönderi"
+
+#: ../buddypress/activity/entry.php:104
+msgid "or press esc to cancel."
+msgstr "veya iptal etmek için esc tuşuna basın"
+
+#: ../buddypress/activity/post-form.php:23
+#, php-format
+msgid "What's new in %s, %s?"
+msgstr " içinde neler yeni %s, %s?"
+
+#: ../buddypress/activity/post-form.php:25
+#, php-format
+msgid "What's new, %s?"
+msgstr "%s , neler yeni"
+
+#: ../buddypress/activity/post-form.php:35
+msgid "Post Update"
+msgstr "Yazıyı Güncelle"
+
+#: ../buddypress/activity/post-form.php:42
+msgid "Post in"
+msgstr "İçine Yaz"
+
+#: ../buddypress/activity/post-form.php:45
+msgid "My Profile"
+msgstr "Profilim"
+
+#: ../buddypress/groups/create.php:29
+msgid "Group Name (required)"
+msgstr "Grup Adı (Gerekli)"
+
+#: ../buddypress/groups/create.php:34
+msgid "Group Description (required)"
+msgstr "Grup Açıklaması (Grekli)"
+
+#: ../buddypress/groups/create.php:51
+msgid "Privacy Options"
+msgstr "Özel Ayarlar"
+
+#: ../buddypress/groups/create.php:55
+msgid "This is a public group"
+msgstr "Herkeze Açık Bir Gruptur"
+
+#: ../buddypress/groups/create.php:57
+msgid "Any site member can join this group."
+msgstr "Herhangi bir site üyesi bu gruba katılabilir."
+
+#: ../buddypress/groups/create.php:58 ../buddypress/groups/create.php:67
+msgid "This group will be listed in the groups directory and in search results."
+msgstr "Bu grup gruplar dizininde ve arama sonuçlarında listelenir"
+
+#: ../buddypress/groups/create.php:59
+msgid "Group content and activity will be visible to any site member."
+msgstr "Grup içeriği ve etkinliği herhangi bir site üyesi tarafından görülecektir"
+
+#: ../buddypress/groups/create.php:64
+msgid "This is a private group"
+msgstr "Bu Özel Bir Gruptur."
+
+#: ../buddypress/groups/create.php:66
+msgid "Only users who request membership and are accepted can join the group."
+msgstr "Yalnızca üyelik talep eden ve kabul edilen kullanıcılar gruba katılabilir"
+
+#: ../buddypress/groups/create.php:68 ../buddypress/groups/create.php:77
+msgid "Group content and activity will only be visible to members of the group."
+msgstr "Grup içeriği ve etkinliği yalnızca grubun üyeleri tarafından görülebilir"
+
+#: ../buddypress/groups/create.php:73
+msgid "This is a hidden group"
+msgstr "Bu Gizli Bir Gruptur"
+
+#: ../buddypress/groups/create.php:75
+msgid "Only users who are invited can join the group."
+msgstr "Yalnızca davet edilen kullanıcılar gruba katılabilir"
+
+#: ../buddypress/groups/create.php:76
+msgid "This group will not be listed in the groups directory or search results."
+msgstr "Bu grup gruplar dizininde veya arama sonuçlarında listelenmeyecektir"
+
+#: ../buddypress/groups/create.php:82
+msgid "Group Invitations"
+msgstr "Grup Davetleri"
+
+#: ../buddypress/groups/create.php:84
+msgid "Which members of this group are allowed to invite others?"
+msgstr "Bu grubun hangi üyelerinin başkalarını davet etmesine izin verilir?"
+
+#: ../buddypress/groups/create.php:89
+msgid "All group members"
+msgstr "Bütün Grup Üyeleri"
+
+#: ../buddypress/groups/create.php:94
+msgid "Group admins and mods only"
+msgstr "Sadece Grup Yöneticisi ve Moderatörü"
+
+#: ../buddypress/groups/create.php:99
+msgid "Group admins only"
+msgstr "Sadece Grup Yöneticisi"
+
+#: ../buddypress/groups/create.php:105
+msgid "Group Forums"
+msgstr "Grup Formları"
+
+#: ../buddypress/groups/create.php:109
+msgid "Should this group have a forum?"
+msgstr "Bu grubun bir forumu olmalıdır mı"
+
+#: ../buddypress/groups/create.php:112
+msgid "Enable discussion forum"
+msgstr "Tartışma forumu etkinleştir"
+
+#: ../buddypress/groups/create.php:116
+#, php-format
+msgid ""
+"<strong>Attention Site Admin:</strong> Group forums require the <a href=\"%s\">correct setup and "
+"configuration</a> of a bbPress installation."
+msgstr ""
+"<strong>Dikkat Site Yöneticisi:</strong> Grup forumları BbPress kurulumunun tamamlanması<a href=\"%s"
+"\">doğru kurulum ve yapılandırma gerektirir</a> ."
+
+#: ../buddypress/groups/create.php:142
+msgid ""
+"Upload an image to use as an avatar for this group. The image will be shown on the main group page, "
+"and in search results."
+msgstr ""
+"Bu grup için bir avatar olarak kullanılacak bir resim yükleyin. Resim gösterilecektirAna grup "
+"sayfasında ve arama sonuçlarında"
+
+#: ../buddypress/groups/create.php:146
+msgid "Upload Image"
+msgstr "Resim Yükleme"
+
+#: ../buddypress/groups/create.php:150
+msgid "To skip the avatar upload process, hit the \"Next Step\" button."
+msgstr "Avatar yükleme işlemini atlamak için \\ \"Sonraki Adım \" düğmesine basın"
+
+#: ../buddypress/groups/create.php:157
+msgid "Crop Group Avatar"
+msgstr "Grup Avatarını Kırp"
+
+#: ../buddypress/groups/create.php:159
+msgid "Avatar to crop"
+msgstr " Avatarı Kırp"
+
+#: ../buddypress/groups/create.php:162
+msgid "Avatar preview"
+msgstr "Avatar Önizle"
+
+#: ../buddypress/groups/create.php:165
+msgid "Crop Image"
+msgstr "Resmi Kırp"
+
+#: ../buddypress/groups/create.php:204
+msgid "Select people to invite from your friends list."
+msgstr "Arkadaş listenizden davet edilecek kişileri seçin."
+
+#: ../buddypress/groups/create.php:222
+msgid "Remove Invite"
+msgstr "Davetiyeyi Kaldır"
+
+#: ../buddypress/groups/create.php:239
+msgid "Once you have built up friend connections you will be able to invite others to your group."
+msgstr "Grubunuza Arkadaş bağlantıları oluşturduktan sonra başkalarını davet edebileceksiniz"
+
+#: ../buddypress/groups/create.php:261
+msgid "Back to Previous Step"
+msgstr "Önceki Adıma Geri Dön"
+
+#: ../buddypress/groups/create.php:268
+msgid "Next Step"
+msgstr "Sonraki Adım"
+
+#: ../buddypress/groups/create.php:275
+msgid "Create Group and Continue"
+msgstr "Grubu Kur ve Devam Et"
+
+#: ../buddypress/groups/create.php:282
+msgid "Finish"
+msgstr "Bitti"
+
+#: ../buddypress/groups/groups-loop.php:46
+#, php-format
+msgid "active %s"
+msgstr "%s Aktif "
+
+#: ../buddypress/groups/groups-loop.php:96
+msgid "There were no groups found."
+msgstr "Grup Bulunamadı"
+
+#: ../buddypress/members/index.php:15
+#, php-format
+msgid "All Members <span>%s</span>"
+msgstr "<span>%s</span> Tüm Üyeler"
+
+#: ../buddypress/members/index.php:18
+#, php-format
+msgid "My Friends <span>%s</span>"
+msgstr "<span>%s</span> Arkadaşlarım"
+
+#: ../buddypress/members/index.php:31
+msgid "Order By:"
+msgstr "Tarafında:"
+
+#: ../buddypress/members/index.php:33
+msgid "Last Active"
+msgstr "Son Aktif olma"
+
+#: ../buddypress/members/index.php:34
+msgid "Newest Registered"
+msgstr "En Yeni Kayıtlı"
+
+#: ../buddypress/members/index.php:37
+msgid "Alphabetical"
+msgstr "Alfabetik"
+
+#: ../buddypress/members/members-loop.php:112
+msgid "Sorry, no members were found."
+msgstr "Üzgünüz, üye bulunamadı"
+
+#: ../buddypress/members/single/profile/edit.php:10
+#, php-format
+msgid "Editing '%s' Profile Group"
+msgstr "Profil '% s'  Grubunu Düzenleme"
+
+#: ../buddypress/members/single/profile/edit.php:26 ../buddypress/members/single/profile/edit.php:33
+#: ../buddypress/members/single/profile/edit.php:40 ../buddypress/members/single/profile/edit.php:49
+#: ../buddypress/members/single/profile/edit.php:67 ../buddypress/members/single/profile/edit.php:83
+#: ../buddypress/members/single/profile/edit.php:93
+msgid "(required)"
+msgstr "(Gerekli)"
+
+#: ../buddypress/members/single/profile/edit.php:58 ../buddypress/members/single/profile/edit.php:73
+msgid "Clear"
+msgstr "Temizle"
+
+#: ../buddypress/members/single/profile/edit.php:120 ../buddypress/members/single/profile/edit.php:134
+#, php-format
+msgid "This field can be seen by: <span class=\"current-visibility-level\">%s</span>"
+msgstr "Bu alan, <span class=\"current-visibility-level\">%s</span> tarafından görülebilir"
+
+#: ../buddypress/members/single/profile/edit.php:120
+msgid "Change"
+msgstr "Değiştir"
+
+#: ../buddypress/members/single/profile/edit.php:125
+msgid "Who can see this field?"
+msgstr "Bu Alanı Kim Görebilir?"
+
+#: ../buddypress/members/single/profile/edit.php:130
+msgid "Close"
+msgstr "Kapat"
+
+#: ../buddypress/members/single/profile/edit.php:148
+msgid "Save Changes"
+msgstr "Değişiklikleri Kaydet"
+
+#: ../comments.php:15
+msgid "This post is password protected. Enter the password to view comments."
+msgstr "Bu yazı şifre korumalıdır. Yorumları görmek için şifreyi giriniz."
+
+#: ../comments.php:27
+msgid "No Responses"
+msgstr "Cevap Yok"
+
+#: ../comments.php:27
+msgid "One Response"
+msgstr "bir Yanıt"
+
+#: ../comments.php:27
+msgid "% Response"
+msgid_plural "% Responses"
+msgstr[0] "% Yanıt"
+msgstr[1] "% Tepki"
+
+#: ../comments.php:53
+msgid "Leave a Reply"
+msgstr "Cevap Bırakın"
+
+#: ../comments.php:54
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr "%s Bir Cevap Verdi"
+
+#: ../comments.php:55
+msgid "Cancel Reply"
+msgstr "Yanıtı İptal Et"
+
+#: ../comments.php:56
+msgid "Post Comment"
+msgstr "Yorum Gönder"
+
+#: ../comments.php:58
+msgid "Your email address will not be published."
+msgstr "E-posta hesabınız yayımlanmayacak."
+
+#: ../comments.php:59
+msgid "Comment"
+msgstr "Yorum yap"
+
+#: ../comments.php:65
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr "Yorum Yapabilmek için <a href=\"%s\">Giriş</a> Yapmalısınız."
+
+#: ../comments.php:71
+#, php-format
+msgid ""
+"Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of this account\">Log out?</a>"
+msgstr ""
+"<a href=\"%1$s\">%2$s</a> Olarak Giriş Yapıldı.<a href=\"%3$s\" title=\"Log out of this account"
+"\">Çıkış Yapmak İstermisiniz?</a>"
+
+#: ../comments.php:81
+msgid "Name"
+msgstr "İsim"
+
+#: ../comments.php:87 ../library/core.php:4018 ../library/core.php:4072
+msgid "Email"
+msgstr "E-posta"
+
+#: ../comments.php:94 ../library/core.php:4019 ../library/core.php:4073
+msgid "Website"
+msgstr "Website"
+
+# Kymkypn Tarafında Çevrilmiştir
+#: ../functions.php:360
+msgid ""
+"15Zine no longer requires Cubell Themes Functionality plugin, please delete it and instead install the "
+"new \"15Zine Functionality\" plugin, which can be done in Appearance -> Install Plugins."
+msgstr ""
+"15Zine artık Cubell Temaları İşlevsellik eklentisi gerektirmiyor, lütfen silin ve bunun yerine yeni \\ "
+"\"15Zine İşlevsellik \" eklentisini kurun;Görünüm -> Eklentileri Kur olarak yapılır."
+
+#: ../library/core.php:130
+msgid "Log in / Join"
+msgstr "Giriş / Kayıt"
+
+#: ../library/core.php:137
+msgid "Search"
+msgstr "Ara"
+
+#: ../library/core.php:382
+msgid "Trending"
+msgstr "Trend"
+
+#: ../library/core.php:389
+msgid "Now"
+msgstr "Şimdi"
+
+#: ../library/core.php:389
+msgid "Week"
+msgstr "Hafta"
+
+#: ../library/core.php:389
+msgid "Month"
+msgstr "Ay"
+
+#: ../library/core.php:467 ../library/core.php:532
+msgid "Not enough data yet, please check again later."
+msgstr "Henüz veri yok, lütfen daha sonra tekrar kontrol edin"
+
+#: ../library/core.php:472 ../library/core.php:538
+msgid "You need to install Jetpack plugin and enable the \"Stats\" module to be able to use this."
+msgstr ""
+"Kullanabilmeniz içinJetpack eklentisini kurmanız ve \\ \"Stats \" modülünü etkinleştirmeniz gerekir."
+
+#: ../library/core.php:566
+#, php-format
+msgid "Found %d result for:"
+msgid_plural "Found %d results for:"
+msgstr[0] "%d İçin Sonuç"
+msgstr[1] "%d İçin Sonuçlar"
+
+#: ../library/core.php:589
+msgid "See all results"
+msgstr "Tüm Sonuöları Görünü"
+
+#: ../library/core.php:592
+msgid "No results found for:"
+msgstr "Sonuç Bulunamadı:"
+
+#: ../library/core.php:1262 ../library/core.php:1417 ../library/core.php:2350 ../library/core.php:2354
+#: ../library/core.php:2355 ../library/core.php:2423 ../library/core.php:2427 ../library/core.php:2429
+#: ../library/core.php:2435 ../library/core.php:2441 ../library/core.php:2447
+#, php-format
+msgid "View all posts in %s"
+msgstr " adlı kullanıcının tüm mesajlarını görüntüle %s"
+
+#: ../library/core.php:1426
+msgid "0 Comments"
+msgstr "0 Yorum"
+
+#: ../library/core.php:1471 ../library/core.php:1473
+msgid "views"
+msgstr "görüntüleme Sayısı"
+
+#: ../library/core.php:1535
+#, php-format
+msgid "%s (Invalid)"
+msgstr "%s (Geçersiz)"
+
+#: ../library/core.php:1539
+#, php-format
+msgid "%s (Pending)"
+msgstr "%s(Beklemede)"
+
+#: ../library/core.php:1584
+msgid "Edit Menu Item"
+msgstr "Menü öğesini Düzenle"
+
+#: ../library/core.php:1593
+msgid "URL"
+msgstr "URL"
+
+#: ../library/core.php:1600
+msgid "Navigation Label"
+msgstr "Navigasyon Etiketi"
+
+#: ../library/core.php:1606
+msgid "Title Attribute"
+msgstr "Özellik Başlığı"
+
+#: ../library/core.php:1613
+msgid "Open link in a new window/tab"
+msgstr "Linki Yeni bir pencere/sekmede aç "
+
+#: ../library/core.php:1618
+msgid "CSS Classes (optional)"
+msgstr "CSS Sınıfı (İsteğe Bağlı)"
+
+#: ../library/core.php:1624
+msgid "Link Relationship (XFN)"
+msgstr "Bağlantı İlişkisi (XFN)"
+
+#: ../library/core.php:1640
+msgid "Description"
+msgstr "Açıklama"
+
+#: ../library/core.php:1642
+msgid "The description will be displayed in the menu if the current theme supports it. "
+msgstr "Açıklama, geçerli tema destekliyorsa, menüde görüntülenir."
+
+#: ../library/core.php:1648
+msgid "Move"
+msgstr "Taşı"
+
+#: ../library/core.php:1649
+msgid "Up one"
+msgstr "Bir Yukarı"
+
+#: ../library/core.php:1650
+msgid "Down one"
+msgstr "bir Aşağı"
+
+#: ../library/core.php:1653
+msgid "To the top"
+msgstr "Başa"
+
+#: ../library/core.php:1660
+#, php-format
+msgid "Original: %s"
+msgstr "Orijinal: %s"
+
+#: ../library/core.php:1673
+msgid "Remove"
+msgstr "Sil"
+
+#: ../library/core.php:1674
+msgid "Cancel"
+msgstr "Vazgeç"
+
+#: ../library/core.php:1865
+msgid "See all"
+msgstr "Hepsini Görüntüle"
+
+#: ../library/core.php:2173
+msgid "No more articles"
+msgstr "Başka Makale Yok"
+
+#: ../library/core.php:2174
+msgid "Load More"
+msgstr "Daha Fazla Yükle"
+
+#: ../library/core.php:2341
+msgid "Home"
+msgstr "Ev"
+
+#: ../library/core.php:2391 ../library/core.php:2395
+msgid "Members"
+msgstr "Üyeler"
+
+#: ../library/core.php:2403
+msgid "Messages"
+msgstr "Mesajlar"
+
+#: ../library/core.php:2408
+msgid "Register"
+msgstr "Kayıt"
+
+#: ../library/core.php:2534
+msgid "Share On"
+msgstr "Paylaş"
+
+#: ../library/core.php:2660
+msgid "Next Article"
+msgstr "Sonraki Makale"
+
+#: ../library/core.php:2665
+msgid "No Newer Articles"
+msgstr "Yeni Makale Yok"
+
+#: ../library/core.php:2675
+msgid "Previous Article"
+msgstr "Önceki Makale"
+
+#: ../library/core.php:2680
+msgid "No Older Articles"
+msgstr "Eski Makale Yok"
+
+#: ../library/core.php:2749
+msgid "Related Posts"
+msgstr "İlgili Mesajlar"
+
+#: ../library/core.php:2801
+msgid "(Edit)"
+msgstr "(Düzenle)"
+
+#: ../library/core.php:2804
+msgid "Your comment is awaiting moderation."
+msgstr "Yorumunuz onay bekliyor."
+
+#: ../library/core.php:3814
+msgid "Overall Score"
+msgstr "Genel Puanı"
+
+#: ../library/core.php:3907 ../library/core.php:3917
+msgid "You have already rated"
+msgstr "Zaten derecelendirdin"
+
+#: ../library/core.php:3911 ../library/core.php:4795
+msgid "Vote"
+msgstr "Oylama"
+
+#: ../library/core.php:3913 ../library/core.php:4797
+msgid "Votes"
+msgstr "Oy Sayısı"
+
+#: ../library/core.php:3916
+msgid "Leave rating"
+msgstr "Oylama Puanı Bırakın"
+
+#: ../library/core.php:3918
+msgid "Reader Rating"
+msgstr "Okuyucu Derecelendirmesi"
+
+#: ../library/widgets/cb-google-follow-widget.php:87
+#: ../library/widgets/cb-recent-posts-slider-widget.php:117
+#: ../library/widgets/cb-recent-posts-widget.php:116 ../library/widgets/cb-reviews-widget.php:182
+#: ../library/widgets/cb-single-image-widget.php:82 ../library/widgets/cb-widget-social-media.php:98
+msgid "Title:"
+msgstr "Başlık"
+
+#: ../library/widgets/cb-popular-posts-widget.php:116
+msgid "Comments"
+msgstr "Yorum Yap"
+
+#: ../library/widgets/cb-popular-posts-widget.php:149
+msgid "Views"
+msgstr "Görüntüle"
+
+#: ../library/widgets/cb-recent-posts-slider-widget.php:120
+#: ../library/widgets/cb-recent-posts-widget.php:119
+msgid "Number of posts to show:"
+msgstr "Göndereceğiniz mesaj sayısı"
+
+#: ../library/widgets/cb-reviews-widget.php:197
+msgid "Number of reviews to show:"
+msgstr "Gösterilecek incelemelerin sayısı"
+
+#: ../page.php:53
+msgid "Tags:"
+msgstr "Etiketler"
+
+#: ../search.php:10
+msgid "Search Results for"
+msgstr "İçin arama sonuçları"
+
+#: ../search.php:27
+msgid "Sorry, nothing found."
+msgstr "Üzgünüm, hiçbir şey bulunamadı."
+
+#: ../search.php:28
+msgid "Please try searching again, but with different keywords."
+msgstr "Lütfen farklı anahtar kelimelerle tekrar aramayı deneyin.  "
+
+#: ../woocommerce/content-product.php:68
+msgid "View Details"
+msgstr "Ayrıntıları Görğntüle"
+
+#: ../woocommerce/single-product/meta.php:27
+msgid "SKU:"
+msgstr "SKU:"
+
+#: ../woocommerce/single-product/meta.php:27
+msgid "N/A"
+msgstr "Yok"
+
+#: ../woocommerce/single-product/meta.php:31
+msgid "Category:"
+msgid_plural "Categories:"
+msgstr[0] "Kategori:"
+msgstr[1] "Kategoriler:"
+
+#: ../woocommerce/single-product/meta.php:33
+msgid "Tag:"
+msgid_plural "Tags:"
+msgstr[0] "Etiket:"
+msgstr[1] "Etiketler:"
+
+#: ../woocommerce/single-product/rating.php:28
+#, php-format
+msgid "%s customer review"
+msgid_plural "%s customer reviews"
+msgstr[0] "%s Müşteri Yorumu"
+msgstr[1] "%s Müşteri Yorumları"
+
+#: ../woocommerce/single-product/rating.php:29
+#, php-format
+msgid "Rated %s out of 5"
+msgstr "%s 5 Dışında Değerlendirdi"
+
+#: ../woocommerce/single-product/rating.php:31
+#, php-format
+msgid "out of %s5%s"
+msgstr "%s 5 Dışında %s"
+
+#: ../woocommerce/single-product/rating.php:32
+#, php-format
+msgid "based on %s customer rating"
+msgid_plural "based on %s customer ratings"
+msgstr[0] "%s Müşteri Puanına Dayalı"
+msgstr[1] "%s müşterinin puanlarına dayanan"

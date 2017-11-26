@@ -1,0 +1,514 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: 15Zine 1.0\n"
+"POT-Creation-Date: 2016-05-26 11:30-0000\n"
+"PO-Revision-Date: 2016-05-26 11:30-0000\n"
+"Last-Translator: \n"
+"Language-Team: Cubell Themes\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.4\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-KeywordsList: __;_e;esc_html_e;gettext;gettext_noop;_n:1,2;"
+"esc_html__\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-SearchPathExcluded-0: ../library/admin\n"
+"X-Poedit-SearchPathExcluded-1: ../option-tree\n"
+"X-Poedit-SearchPathExcluded-2: ../plugins/login-with-ajax\n"
+"X-Poedit-SearchPathExcluded-3: ../buddypress\n"
+"X-Poedit-SearchPathExcluded-4: ../bbpress\n"
+"X-Poedit-SearchPathExcluded-5: ../woocommerce\n"
+
+#: ../404.php:10
+msgid "Page not found... Oops!"
+msgstr "Oops...Página não encontrada!"
+
+#: ../404.php:11
+msgid "Page not found. Please try using the search box below."
+msgstr ""
+"Página não encontrada. Por favor, tente usar a caixa de pesquisa abaixo."
+
+#: ../buddypress.php:10
+msgid "Member"
+msgstr "Membro"
+
+#: ../buddypress.php:14
+msgid "Group"
+msgstr "Grupo"
+
+#: ../buddypress.php:18 ../buddypress.php:34 ../library/core.php:2668
+#: ../library/core.php:2670
+msgid "Groups"
+msgstr "Grupos"
+
+#: ../buddypress.php:22
+msgid "Settings"
+msgstr "Configurações"
+
+#: ../buddypress.php:26
+msgid "Forums"
+msgstr "Forums"
+
+#: ../buddypress.php:30 ../buddypress.php:42
+msgid "Activity"
+msgstr "Atividade"
+
+#: ../buddypress.php:34 ../buddypress.php:38
+msgid "Create a Group"
+msgstr "Criar um grupo"
+
+#: ../comments.php:15
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+"Este post é protegido por senha. Digite a senha para ver os comentários."
+
+#: ../comments.php:27
+msgid "No Responses"
+msgstr "Sem respostas"
+
+#: ../comments.php:27
+msgid "One Response"
+msgstr "Uma resposta"
+
+#: ../comments.php:27
+msgid "% Response"
+msgid_plural "% Responses"
+msgstr[0] "% Resposta"
+msgstr[1] "% Respostas"
+
+#: ../comments.php:53
+msgid "Leave a Reply"
+msgstr "Deixe uma resposta"
+
+#: ../comments.php:54
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr "Deixe uma resposta para %s"
+
+#: ../comments.php:55
+msgid "Cancel Reply"
+msgstr "Cancelar resposta"
+
+#: ../comments.php:56
+msgid "Post Comment"
+msgstr "Postar comentário"
+
+#: ../comments.php:58
+msgid "Your email address will not be published."
+msgstr "Seu endereço de e-mail não será publicado."
+
+#: ../comments.php:59
+msgid "Comment"
+msgstr "Comentário"
+
+#: ../comments.php:65
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr "Você deve estar <a href=\"%s\">logado</a> para postar um comentário."
+
+#: ../comments.php:71
+#, php-format
+msgid ""
+"Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of "
+"this account\">Log out?</a>"
+msgstr ""
+"Logado como <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Sair desta "
+"conta\">Sair?</a>"
+
+#: ../comments.php:81
+msgid "Name"
+msgstr "Nome"
+
+#: ../comments.php:87 ../library/core.php:4462 ../library/core.php:4525
+msgid "Email"
+msgstr "Email"
+
+#: ../comments.php:94 ../library/core.php:4463 ../library/core.php:4526
+msgid "Website"
+msgstr "Website"
+
+#: ../functions.php:404
+msgid ""
+"15Zine no longer requires Cubell Themes Functionality plugin, please delete "
+"it and instead install the new \"15Zine Functionality\" plugin, which can be "
+"done in Appearance -> Install Plugins."
+msgstr ""
+"15Zine não requer o plugin de funcionalidade Cubell, por favor, excluí-lo e "
+"depois disso, instalar o novo plugin \"funcionalidade de 15Zine\", que pode "
+"ser feito em aparência-> instalar Plugins."
+
+#: ../library/core.php:149
+msgid "Log in / Join"
+msgstr "Entrar / Cadastre-se"
+
+#: ../library/core.php:156 ../library/core.php:159 ../library/core.php:180
+#: ../library/core.php:237
+msgid "Search"
+msgstr "Pesquisar"
+
+#: ../library/core.php:550
+msgid "Trending"
+msgstr "Tendências"
+
+#: ../library/core.php:557
+msgid "Now"
+msgstr "Agora"
+
+#: ../library/core.php:557
+msgid "Week"
+msgstr "Semana"
+
+#: ../library/core.php:557
+msgid "Month"
+msgstr "Mês"
+
+#: ../library/core.php:643 ../library/core.php:715
+msgid "Not enough data yet, please check again later."
+msgstr ""
+"Não há dados suficientes ainda, por favor, verifique novamente mais tarde."
+
+#: ../library/core.php:648 ../library/core.php:721
+msgid ""
+"You need to install Jetpack plugin and enable the \"Stats\" module to be "
+"able to use this."
+msgstr ""
+"Você precisa instalar o plugin Jetpack e ativar o módulo \"Estatísticas\" "
+"para ser capaz de usar isso."
+
+#: ../library/core.php:752
+#, php-format
+msgid "Found %d result for:"
+msgid_plural "Found %d results for:"
+msgstr[0] "Encontrados %d resultados para:"
+msgstr[1] "Encontrados %d resultados para:"
+
+#: ../library/core.php:775
+msgid "See all results"
+msgstr "Veja todos os resultados"
+
+#: ../library/core.php:778
+msgid "No results found for:"
+msgstr "Não foram encontrados resultados para:"
+
+#: ../library/core.php:1452 ../library/core.php:1554 ../library/core.php:2636
+#: ../library/core.php:2645 ../library/core.php:2649 ../library/core.php:2650
+#: ../library/core.php:2718 ../library/core.php:2722 ../library/core.php:2724
+#: ../library/core.php:2730 ../library/core.php:2736 ../library/core.php:2742
+#, php-format
+msgid "View all posts in %s"
+msgstr "Ver todos os posts em %s"
+
+#: ../library/core.php:1461
+msgid "0 Comments"
+msgstr "0 Comentários"
+
+#: ../library/core.php:1697 ../library/core.php:1700
+msgid "views"
+msgid_plural "views"
+msgstr[0] "visualizações"
+msgstr[1] "visualizações"
+
+#: ../library/core.php:1763
+#, php-format
+msgid "%s (Invalid)"
+msgstr "%s (Inválido)"
+
+#: ../library/core.php:1767
+#, php-format
+msgid "%s (Pending)"
+msgstr "%s (Pendente)"
+
+#: ../library/core.php:1812
+msgid "Edit Menu Item"
+msgstr "Editar Item do menu"
+
+#: ../library/core.php:1821
+msgid "URL"
+msgstr "URL"
+
+#: ../library/core.php:1828
+msgid "Navigation Label"
+msgstr "Rótulo da navegação"
+
+#: ../library/core.php:1834
+msgid "Title Attribute"
+msgstr "Atributos do título"
+
+#: ../library/core.php:1841
+msgid "Open link in a new window/tab"
+msgstr "Abrir o link numa nova janela/tab"
+
+#: ../library/core.php:1846
+msgid "CSS Classes (optional)"
+msgstr "Classes de CSS (opcional)"
+
+#: ../library/core.php:1852
+msgid "Link Relationship (XFN)"
+msgstr "Relação de link (XFN)"
+
+#: ../library/core.php:1868
+msgid "Description"
+msgstr "Descrição"
+
+#: ../library/core.php:1870
+msgid ""
+"The description will be displayed in the menu if the current theme supports "
+"it. "
+msgstr "A descrição será exibida no menu se o tema atual suportar. "
+
+#: ../library/core.php:1876
+msgid "Move"
+msgstr "Mover"
+
+#: ../library/core.php:1877
+msgid "Up one"
+msgstr "Subir um"
+
+#: ../library/core.php:1878
+msgid "Down one"
+msgstr "Baixar um"
+
+#: ../library/core.php:1881
+msgid "To the top"
+msgstr "Voltar para o topo"
+
+#: ../library/core.php:1888
+#, php-format
+msgid "Original: %s"
+msgstr "Original: %s"
+
+#: ../library/core.php:1901
+msgid "Remove"
+msgstr "Remover"
+
+#: ../library/core.php:1902
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: ../library/core.php:2094
+msgid "See all"
+msgstr "Ver todos"
+
+#: ../library/core.php:2432
+msgid "No more articles"
+msgstr "Sem mais artigos"
+
+#: ../library/core.php:2433
+msgid "Load More"
+msgstr "Carregar mais"
+
+#: ../library/core.php:2631
+msgid "Home"
+msgstr "Início"
+
+#: ../library/core.php:2686 ../library/core.php:2690
+msgid "Members"
+msgstr "Membros"
+
+#: ../library/core.php:2698
+msgid "Messages"
+msgstr "Mensagens"
+
+#: ../library/core.php:2703
+msgid "Register"
+msgstr "Registar"
+
+#: ../library/core.php:2818
+msgid "Share On"
+msgstr "Compartilhar no"
+
+#: ../library/core.php:2874 ../library/core.php:2888
+msgid "Share"
+msgstr "Compartilhar"
+
+#: ../library/core.php:2879
+msgid "Tweet"
+msgstr "Tweet"
+
+#: ../library/core.php:2883
+msgid "Pin it"
+msgstr "Pin it"
+
+#: ../library/core.php:2971
+msgid "Next Article"
+msgstr "Próximo artigo"
+
+#: ../library/core.php:2976
+msgid "No Newer Articles"
+msgstr "Não há novos artigos"
+
+#: ../library/core.php:2986
+msgid "Previous Article"
+msgstr "Artigo anterior"
+
+#: ../library/core.php:2991
+msgid "No Older Articles"
+msgstr "Não há artigos mais antigos"
+
+#: ../library/core.php:3060
+msgid "Related Posts"
+msgstr "Artigos relacionados"
+
+#: ../library/core.php:3112
+msgid "Edit comment"
+msgstr "Editar comentário"
+
+#: ../library/core.php:3115
+msgid "Your comment is awaiting moderation."
+msgstr "Seu comentário está aguardando moderação."
+
+#: ../library/core.php:4226
+msgid "Overall Score"
+msgstr "Pontuação geral"
+
+#: ../library/core.php:4325 ../library/core.php:4335
+msgid "You have already rated"
+msgstr "Você já avaliou"
+
+#: ../library/core.php:4329 ../library/core.php:5333
+msgid "Vote"
+msgstr "Voto"
+
+#: ../library/core.php:4331 ../library/core.php:5335
+msgid "Votes"
+msgstr "Votos"
+
+#: ../library/core.php:4334
+msgid "Leave rating"
+msgstr "Deixe seu voto"
+
+#: ../library/core.php:4344 ../library/core.php:4349
+msgid "Reader Rating"
+msgstr "Votação do leitor"
+
+#: ../library/core.php:4619
+msgid "No Authors Are Currently Enabled"
+msgstr ""
+
+#: ../library/core.php:4619
+msgid ""
+"Tick the \"Show On About Us Page Template\" checkbox on each author profile "
+"you wish to showcase here."
+msgstr ""
+
+#: ../library/widgets/cb-google-follow-widget.php:87
+#: ../library/widgets/cb-recent-posts-slider-widget.php:117
+#: ../library/widgets/cb-recent-posts-widget.php:127
+#: ../library/widgets/cb-reviews-widget.php:186
+#: ../library/widgets/cb-single-image-widget.php:82
+#: ../library/widgets/cb-widget-social-media.php:98
+msgid "Title:"
+msgstr "Título"
+
+#: ../library/widgets/cb-popular-posts-widget.php:116
+msgid "Comments"
+msgstr "Comentários"
+
+#: ../library/widgets/cb-popular-posts-widget.php:149
+msgid "Views"
+msgstr "Visualizações"
+
+#: ../library/widgets/cb-recent-posts-slider-widget.php:120
+#: ../library/widgets/cb-recent-posts-widget.php:130
+msgid "Number of posts to show:"
+msgstr "Número de artigos para mostrar"
+
+#: ../library/widgets/cb-recent-posts-widget.php:135
+#: ../library/widgets/cb-reviews-widget.php:192
+msgid "Category(s):"
+msgstr "Categoria(s)"
+
+#: ../library/widgets/cb-recent-posts-widget.php:138
+#: ../library/widgets/cb-reviews-widget.php:195
+msgid "All Categories"
+msgstr "Todas categorias"
+
+#: ../library/widgets/cb-reviews-widget.php:203
+msgid "Number of reviews to show:"
+msgstr "Número de revisões para mostar:"
+
+#: ../page.php:53
+msgid "Tags:"
+msgstr "Tags:"
+
+#: ../search.php:10
+msgid "Search Results for"
+msgstr "Resultados de pesquisa para"
+
+#: ../search.php:27
+msgid "Sorry, nothing found."
+msgstr "Desculpe, mas nada foi encontrado."
+
+#: ../search.php:28
+msgid "Please try searching again, but with different keywords."
+msgstr "Tente a busca novamente, mas com palavras diferentes."
+
+#: ../searchform.php:3
+msgid "Search.."
+msgstr "Pesquisar.."
+
+#~ msgid "(Edit)"
+#~ msgstr "(Editar)"
+
+#~ msgid "Search for:"
+#~ msgstr "Pesquisar por:"
+
+#~ msgid ""
+#~ "15Zine requires Cubell Themes Functionality 4.0, please delete your "
+#~ "existing installation of Cubell Themes Functionality plugin and install "
+#~ "the latest version in Appearance -> Install Plugins."
+#~ msgstr ""
+#~ "15Zine necessita do Cubell Themes Functionality 4.0, por favor apague a "
+#~ "instalação actual do plugin Cubell Themes Functionality e proceda à "
+#~ "instalação da nova versão em Appearance -> Install Plugins."
+
+#~ msgid "Read more"
+#~ msgstr "Ler mais"
+
+#~ msgid "Sidebar Select"
+#~ msgstr "Seleccionar Barra Lateral"
+
+#~ msgid "Profile"
+#~ msgstr "Perfil"
+
+#~ msgid "Memberships"
+#~ msgstr "membros"
+
+#~ msgid "Subscriptions"
+#~ msgstr "Subscrições"
+
+#~ msgid "Replies Created"
+#~ msgstr "Respostas Criadas"
+
+#~ msgid "Favorites"
+#~ msgstr "Favoritos"
+
+#~ msgid "Log Out"
+#~ msgstr "Desligar"
+
+#~ msgid "Log In"
+#~ msgstr "Ligar"
+
+#~ msgid "Username"
+#~ msgstr "Nome do Usuário"
+
+#~ msgid "Password"
+#~ msgstr "Palavra-Passe"
+
+#~ msgid "Lost your password?"
+#~ msgstr "Perdeu a sua password?"
+
+#~ msgid "E-mail"
+#~ msgstr "E-Mail"
+
+#~ msgid "A password will be e-mailed to you."
+#~ msgstr "Será enviada por email uma password para si"
+
+#~ msgid "Enter username or email"
+#~ msgstr "Insira o nome do usuário ou email"
+
+#~ msgid "Get New Password"
+#~ msgstr "Obtenha nova Palavra-Passe"

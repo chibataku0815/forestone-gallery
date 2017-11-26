@@ -1,0 +1,726 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: 15Zine 1.0\n"
+"POT-Creation-Date: 2016-05-26 11:26-0000\n"
+"PO-Revision-Date: 2016-05-26 11:29-0000\n"
+"Last-Translator: \n"
+"Language-Team: Cubell Themes\n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.4\n"
+"X-Poedit-Basepath: ../\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;esc_html_e;gettext;gettext_noop;_n:1,2;"
+"esc_html__\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-SearchPathExcluded-0: ../library/admin\n"
+"X-Poedit-SearchPathExcluded-1: ../option-tree\n"
+"X-Poedit-SearchPathExcluded-2: ../plugins/login-with-ajax\n"
+"X-Poedit-SearchPathExcluded-3: ../buddypress\n"
+"X-Poedit-SearchPathExcluded-4: ../bbpress\n"
+"X-Poedit-SearchPathExcluded-5: ../woocommerce\n"
+
+#: ../404.php:10
+msgid "Page not found... Oops!"
+msgstr "Hoppla! Diese Seite konnte nicht gefunden werden."
+
+#: ../404.php:11
+msgid "Page not found. Please try using the search box below."
+msgstr "Seite nicht gefunden. Benutzen Sie die Suchfunktion."
+
+#: ../buddypress.php:10
+msgid "Member"
+msgstr "Mitglied"
+
+#: ../buddypress.php:14
+msgid "Group"
+msgstr "Gruppe"
+
+#: ../buddypress.php:18 ../buddypress.php:34 ../library/core.php:2668
+#: ../library/core.php:2670
+msgid "Groups"
+msgstr "Gruppen"
+
+#: ../buddypress.php:22
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: ../buddypress.php:26
+msgid "Forums"
+msgstr "Foren"
+
+#: ../buddypress.php:30 ../buddypress.php:42
+msgid "Activity"
+msgstr "Aktivität"
+
+#: ../buddypress.php:34 ../buddypress.php:38
+msgid "Create a Group"
+msgstr "Eine Gruppe erstellen"
+
+#: ../comments.php:15
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+"Dieser Beitrag ist passwortgeschützt. Sie müssen ein Passwort eingeben um "
+"die Kommentare zu sehen."
+
+#: ../comments.php:27
+msgid "No Responses"
+msgstr "Keine Antworten"
+
+#: ../comments.php:27
+msgid "One Response"
+msgstr "Eine Antwort"
+
+#: ../comments.php:27
+msgid "% Response"
+msgid_plural "% Responses"
+msgstr[0] "% Antwort"
+msgstr[1] "% Antworten"
+
+#: ../comments.php:53
+msgid "Leave a Reply"
+msgstr "Hinterlassen Sie eine Antwort"
+
+#: ../comments.php:54
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr "Hinterlassen Sie eine Antwort auf %s"
+
+#: ../comments.php:55
+msgid "Cancel Reply"
+msgstr "Antwort löschen"
+
+#: ../comments.php:56
+msgid "Post Comment"
+msgstr "Kommentar veröffentlichen"
+
+#: ../comments.php:58
+msgid "Your email address will not be published."
+msgstr "Ihre E-Mail-Adresse wird nicht veröffentlicht."
+
+#: ../comments.php:59
+msgid "Comment"
+msgstr "Kommentieren"
+
+#: ../comments.php:65
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr ""
+"Sie müssen <a href=„%s“>eingeloggt</a>sein, um einen Kommentar schreiben zu "
+"können"
+
+#: ../comments.php:71
+#, php-format
+msgid ""
+"Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of "
+"this account\">Log out?</a>"
+msgstr ""
+"Als <a href=„%s“>%s</a> angemeldet. <a title=„Abmelden“ href=„%s“>Abmelden?</"
+"a><p>"
+
+#: ../comments.php:81
+msgid "Name"
+msgstr "Name"
+
+#: ../comments.php:87 ../library/core.php:4462 ../library/core.php:4525
+msgid "Email"
+msgstr "Email"
+
+#: ../comments.php:94 ../library/core.php:4463 ../library/core.php:4526
+msgid "Website"
+msgstr "Webseite"
+
+#: ../functions.php:404
+msgid ""
+"15Zine no longer requires Cubell Themes Functionality plugin, please delete "
+"it and instead install the new \"15Zine Functionality\" plugin, which can be "
+"done in Appearance -> Install Plugins."
+msgstr ""
+"15Zine benötigt das Cubell Themes Funktionality Plugin nicht mehr, löschen "
+"Sie es bitte und installieren Sie das neue 15Zine Functionality Plugin."
+
+#: ../library/core.php:149
+msgid "Log in / Join"
+msgstr "Anmelden / Registrieren"
+
+#: ../library/core.php:156 ../library/core.php:159 ../library/core.php:180
+#: ../library/core.php:237
+msgid "Search"
+msgstr "Suchen"
+
+#: ../library/core.php:550
+msgid "Trending"
+msgstr "Beliebt"
+
+#: ../library/core.php:557
+msgid "Now"
+msgstr "Jetzt"
+
+#: ../library/core.php:557
+msgid "Week"
+msgstr "Woche"
+
+#: ../library/core.php:557
+msgid "Month"
+msgstr "Monat"
+
+#: ../library/core.php:643 ../library/core.php:715
+msgid "Not enough data yet, please check again later."
+msgstr "Noch nicht genug Daten, prüfen Sie bitte später noch einmal."
+
+#: ../library/core.php:648 ../library/core.php:721
+msgid ""
+"You need to install Jetpack plugin and enable the \"Stats\" module to be "
+"able to use this."
+msgstr ""
+"Sie müssen das Jetpack Plugin installieren und das Stats-Modul aktivieren, "
+"um diese Option verwenden zu können."
+
+#: ../library/core.php:752
+#, php-format
+msgid "Found %d result for:"
+msgid_plural "Found %d results for:"
+msgstr[0] "%d Ergebnis gefunden für:"
+msgstr[1] "%d Ergebnisse gefunden für:"
+
+#: ../library/core.php:775
+msgid "See all results"
+msgstr "Alle Ergebnisse ansehen"
+
+#: ../library/core.php:778
+msgid "No results found for:"
+msgstr "Keine Ergebnisse für:"
+
+#: ../library/core.php:1452 ../library/core.php:1554 ../library/core.php:2636
+#: ../library/core.php:2645 ../library/core.php:2649 ../library/core.php:2650
+#: ../library/core.php:2718 ../library/core.php:2722 ../library/core.php:2724
+#: ../library/core.php:2730 ../library/core.php:2736 ../library/core.php:2742
+#, php-format
+msgid "View all posts in %s"
+msgstr "Zeige alle Beiträge in %s"
+
+#: ../library/core.php:1461
+msgid "0 Comments"
+msgstr "0 Kommentare"
+
+#: ../library/core.php:1697 ../library/core.php:1700
+#, fuzzy
+msgid "views"
+msgid_plural "views"
+msgstr[0] "Ansichten"
+msgstr[1] "Ansichten"
+
+#: ../library/core.php:1763
+#, php-format
+msgid "%s (Invalid)"
+msgstr "%s (ungültig)"
+
+#: ../library/core.php:1767
+#, php-format
+msgid "%s (Pending)"
+msgstr "%s (ausstehend)"
+
+#: ../library/core.php:1812
+msgid "Edit Menu Item"
+msgstr "Menüpunkt bearbeiten"
+
+#: ../library/core.php:1821
+msgid "URL"
+msgstr "URL"
+
+#: ../library/core.php:1828
+msgid "Navigation Label"
+msgstr "Navigationslabel"
+
+#: ../library/core.php:1834
+msgid "Title Attribute"
+msgstr "Titel Attribut"
+
+#: ../library/core.php:1841
+msgid "Open link in a new window/tab"
+msgstr "Link in neuem Fenster/Tab öffnen"
+
+#: ../library/core.php:1846
+msgid "CSS Classes (optional)"
+msgstr "CSS-Klassen (optional)"
+
+#: ../library/core.php:1852
+msgid "Link Relationship (XFN)"
+msgstr "Link-Beziehung (XFN)"
+
+#: ../library/core.php:1868
+msgid "Description"
+msgstr "Beschreibung"
+
+#: ../library/core.php:1870
+msgid ""
+"The description will be displayed in the menu if the current theme supports "
+"it. "
+msgstr ""
+"Die Beschreibung wird im Menü angezeigt, sofern das Theme diese Funktion "
+"unterstützt. "
+
+#: ../library/core.php:1876
+msgid "Move"
+msgstr "Verschieben"
+
+#: ../library/core.php:1877
+msgid "Up one"
+msgstr "Eins nach oben"
+
+#: ../library/core.php:1878
+msgid "Down one"
+msgstr "Eins nach unten"
+
+#: ../library/core.php:1881
+msgid "To the top"
+msgstr "Nach oben"
+
+#: ../library/core.php:1888
+#, php-format
+msgid "Original: %s"
+msgstr "Original: %s"
+
+#: ../library/core.php:1901
+msgid "Remove"
+msgstr "Entfernen"
+
+#: ../library/core.php:1902
+msgid "Cancel"
+msgstr "Abbrechen"
+
+#: ../library/core.php:2094
+msgid "See all"
+msgstr "Alle anzeigen"
+
+#: ../library/core.php:2432
+msgid "No more articles"
+msgstr "Keine weiteren Beiträge"
+
+#: ../library/core.php:2433
+msgid "Load More"
+msgstr "Mehr laden"
+
+#: ../library/core.php:2631
+msgid "Home"
+msgstr "Startseite"
+
+#: ../library/core.php:2686 ../library/core.php:2690
+msgid "Members"
+msgstr "Mitglieder"
+
+#: ../library/core.php:2698
+msgid "Messages"
+msgstr "Nachrichten"
+
+#: ../library/core.php:2703
+msgid "Register"
+msgstr "Registrieren"
+
+#: ../library/core.php:2818
+msgid "Share On"
+msgstr "Teilen auf:"
+
+#: ../library/core.php:2874 ../library/core.php:2888
+msgid "Share"
+msgstr "Teilen:"
+
+#: ../library/core.php:2879
+msgid "Tweet"
+msgstr "Tweet"
+
+#: ../library/core.php:2883
+msgid "Pin it"
+msgstr "Pin it"
+
+#: ../library/core.php:2971
+msgid "Next Article"
+msgstr "Nächster Artikel"
+
+#: ../library/core.php:2976
+msgid "No Newer Articles"
+msgstr "Keine aktuelleren Artikel"
+
+#: ../library/core.php:2986
+msgid "Previous Article"
+msgstr "Vorheriger Artikel"
+
+#: ../library/core.php:2991
+msgid "No Older Articles"
+msgstr "Keine älteren Artikel"
+
+#: ../library/core.php:3060
+msgid "Related Posts"
+msgstr "Ähnliche Beiträge"
+
+#: ../library/core.php:3112
+msgid "Edit comment"
+msgstr "Kommentar bearbeiten"
+
+#: ../library/core.php:3115
+msgid "Your comment is awaiting moderation."
+msgstr "Ihr Kommentar wartet auf die Moderation."
+
+#: ../library/core.php:4226
+msgid "Overall Score"
+msgstr "Gesamtpunktzahl"
+
+#: ../library/core.php:4325 ../library/core.php:4335
+msgid "You have already rated"
+msgstr "Sie haben bereits eine Bewertung abgegeben"
+
+#: ../library/core.php:4329 ../library/core.php:5333
+msgid "Vote"
+msgstr "Abstimmen"
+
+#: ../library/core.php:4331 ../library/core.php:5335
+msgid "Votes"
+msgstr "Stimmen"
+
+#: ../library/core.php:4334
+msgid "Leave rating"
+msgstr "Bewerten"
+
+#: ../library/core.php:4344 ../library/core.php:4349
+msgid "Reader Rating"
+msgstr "Leser Bewertung"
+
+#: ../library/core.php:4619
+msgid "No Authors Are Currently Enabled"
+msgstr ""
+
+#: ../library/core.php:4619
+msgid ""
+"Tick the \"Show On About Us Page Template\" checkbox on each author profile "
+"you wish to showcase here."
+msgstr ""
+
+#: ../library/widgets/cb-google-follow-widget.php:87
+#: ../library/widgets/cb-recent-posts-slider-widget.php:117
+#: ../library/widgets/cb-recent-posts-widget.php:127
+#: ../library/widgets/cb-reviews-widget.php:186
+#: ../library/widgets/cb-single-image-widget.php:82
+#: ../library/widgets/cb-widget-social-media.php:98
+msgid "Title:"
+msgstr "Titel:"
+
+#: ../library/widgets/cb-popular-posts-widget.php:116
+msgid "Comments"
+msgstr "Kommentare"
+
+#: ../library/widgets/cb-popular-posts-widget.php:149
+msgid "Views"
+msgstr "Ansichten"
+
+#: ../library/widgets/cb-recent-posts-slider-widget.php:120
+#: ../library/widgets/cb-recent-posts-widget.php:130
+msgid "Number of posts to show:"
+msgstr "Anzahl der Beiträge, die angezeigt werden:"
+
+#: ../library/widgets/cb-recent-posts-widget.php:135
+#: ../library/widgets/cb-reviews-widget.php:192
+msgid "Category(s):"
+msgstr "Kategorie(s)"
+
+#: ../library/widgets/cb-recent-posts-widget.php:138
+#: ../library/widgets/cb-reviews-widget.php:195
+msgid "All Categories"
+msgstr "Alle Kategorien"
+
+#: ../library/widgets/cb-reviews-widget.php:203
+msgid "Number of reviews to show:"
+msgstr "Anzahl der Bewertungen, die angezeigt werden:"
+
+#: ../page.php:53
+msgid "Tags:"
+msgstr "Schlagwörter:"
+
+#: ../search.php:10
+msgid "Search Results for"
+msgstr "Suchergebnis für"
+
+#: ../search.php:27
+msgid "Sorry, nothing found."
+msgstr "Leider nichts gefunden."
+
+#: ../search.php:28
+msgid "Please try searching again, but with different keywords."
+msgstr "Bitte versuchen Sie es noch einmal mit anderen Suchbegriffen."
+
+#: ../searchform.php:3
+msgid "Search.."
+msgstr "Suche…"
+
+#~ msgid "Search for:"
+#~ msgstr "Suche nach:"
+
+#~ msgid "In reply to: "
+#~ msgstr "Als Antwort auf: "
+
+#~ msgid "View Thread / Permalink"
+#~ msgstr "Threadansicht / Permalink"
+
+#~ msgid "View"
+#~ msgstr "Anzeige"
+
+#~ msgid "Comment <span>%s</span>"
+#~ msgstr "Kommentar <span>%s</span>"
+
+#~ msgid "Favorite"
+#~ msgstr "Favorit"
+
+#~ msgid "Remove Favorite"
+#~ msgstr "Favorit entfernen"
+
+#~ msgid "Post"
+#~ msgstr "Beitrag"
+
+#~ msgid "or press esc to cancel."
+#~ msgstr "oder drücken Sie ESC, um abzubrechen."
+
+#~ msgid "What's new in %s, %s?"
+#~ msgstr "Was ist neu in %s, %s?"
+
+#~ msgid "What's new, %s?"
+#~ msgstr "Was ist neu, %s?"
+
+#~ msgid "Post Update"
+#~ msgstr "Beitrag aktualisieren"
+
+#~ msgid "Post in"
+#~ msgstr "Veröffentlichen in"
+
+#~ msgid "My Profile"
+#~ msgstr "Mein Profil"
+
+#~ msgid "Group Name (required)"
+#~ msgstr "Gruppenname (erforderlich)"
+
+#~ msgid "Group Description (required)"
+#~ msgstr "Gruppenbeschreibung (erforderlich)"
+
+#~ msgid "Privacy Options"
+#~ msgstr "Einstellungen zur Privatsphäre"
+
+#~ msgid "This is a public group"
+#~ msgstr "Dies ist eine öffentliche Gruppe"
+
+#~ msgid "Any site member can join this group."
+#~ msgstr "Jedes Mitglied dieser Seite kann dieser Gruppe beitreten."
+
+#~ msgid ""
+#~ "This group will be listed in the groups directory and in search results."
+#~ msgstr ""
+#~ "Diese Gruppe wird im Gruppen-Verzeichnis und in den Suchergebnissen "
+#~ "aufgeführt werden."
+
+#~ msgid "Group content and activity will be visible to any site member."
+#~ msgstr ""
+#~ "Gruppeninhalte und -aktivitäten werden für alle Mitglieder dieser Website "
+#~ "sichtbar sein."
+
+#~ msgid "This is a private group"
+#~ msgstr "Dies ist eine private Gruppe"
+
+#~ msgid ""
+#~ "Only users who request membership and are accepted can join the group."
+#~ msgstr ""
+#~ "Ausschließlich Teilnehmer, die eine Mitgliedschaft beantragt haben und "
+#~ "zugelassen wurden, können der Gruppe beitreten."
+
+#~ msgid ""
+#~ "Group content and activity will only be visible to members of the group."
+#~ msgstr ""
+#~ "Gruppeninhalte und -aktivitäten werden nur für Mitglieder dieser Gruppe "
+#~ "sichtbar sein."
+
+#~ msgid "This is a hidden group"
+#~ msgstr "Dies ist eine versteckte Gruppe"
+
+#~ msgid "Only users who are invited can join the group."
+#~ msgstr ""
+#~ "Dieser Gruppe können nur Teilnehmer beitreten, die eingeladen wurden."
+
+#~ msgid ""
+#~ "This group will not be listed in the groups directory or search results."
+#~ msgstr ""
+#~ "Diese Gruppe wird nicht im Gruppen-Verzeichnis und in den Suchergebnissen "
+#~ "aufgeführt werden."
+
+#~ msgid "Group Invitations"
+#~ msgstr "Gruppen-Einladungen"
+
+#~ msgid "Which members of this group are allowed to invite others?"
+#~ msgstr "Welche Mitglieder dieser Gruppe dürfen andere einladen?"
+
+#~ msgid "All group members"
+#~ msgstr "Alle Gruppen-Mitglieder"
+
+#~ msgid "Group admins and mods only"
+#~ msgstr "Nur Gruppen-Administratoren und -Moderatoren"
+
+#~ msgid "Group admins only"
+#~ msgstr "Nur Gruppen-Administratoren"
+
+#~ msgid "Group Forums"
+#~ msgstr "Gruppen-Foren"
+
+#~ msgid "Should this group have a forum?"
+#~ msgstr "Soll diese Gruppe ein Forum haben?"
+
+#~ msgid "Enable discussion forum"
+#~ msgstr "Diskussionsforum aktivieren"
+
+#~ msgid ""
+#~ "<strong>Attention Site Admin:</strong> Group forums require the <a href="
+#~ "\"%s\">correct setup and configuration</a> of a bbPress installation."
+#~ msgstr ""
+#~ "<strong>Achtung Site Admin:</strong> Gruppenforen erfordern die <a "
+#~ "href=»%s«>korrekte Einrichtung und Konfiguration</a> einer bbPress "
+#~ "Installation."
+
+#~ msgid ""
+#~ "Upload an image to use as an avatar for this group. The image will be "
+#~ "shown on the main group page, and in search results."
+#~ msgstr ""
+#~ "Laden Sie ein Bild als Profilbild für diese Gruppe hoch. Das Bild wird "
+#~ "auf der Hauptseite der Gruppe und in den Suchergebnissen angezeigt werden."
+
+#~ msgid "Upload Image"
+#~ msgstr "Bild hochladen"
+
+#~ msgid "To skip the avatar upload process, hit the \"Next Step\" button."
+#~ msgstr ""
+#~ "Um kein Profilbild hochzuladen, klicken Sie bitte auf »Nächster Schritt«."
+
+#~ msgid "Crop Group Avatar"
+#~ msgstr "Gruppen-Profilbild beschneiden"
+
+#~ msgid "Avatar to crop"
+#~ msgstr "Profilbild beschneiden"
+
+#~ msgid "Avatar preview"
+#~ msgstr "Profilbild-Vorschau"
+
+#~ msgid "Crop Image"
+#~ msgstr "Bild zuschneiden"
+
+#~ msgid "Select people to invite from your friends list."
+#~ msgstr "Wählen Sie Leute aus ihrer Freundesliste aus, um sie einzuladen."
+
+#~ msgid "Remove Invite"
+#~ msgstr "Einladung löschen"
+
+#~ msgid ""
+#~ "Once you have built up friend connections you will be able to invite "
+#~ "others to your group."
+#~ msgstr ""
+#~ "Sobald Sie ein paar Freundschaften geschlossen haben, können Sie andere "
+#~ "in ihre Gruppe einladen."
+
+#~ msgid "Back to Previous Step"
+#~ msgstr "Zurück zum vorherigen Schritt"
+
+#~ msgid "Next Step"
+#~ msgstr "Nächster Schritt"
+
+#~ msgid "Create Group and Continue"
+#~ msgstr "Gruppe erstellen und fortfahren"
+
+#~ msgid "Finish"
+#~ msgstr "Fertig stellen"
+
+#~ msgid "active %s"
+#~ msgstr "aktiv %s"
+
+#~ msgid "There were no groups found."
+#~ msgstr "Es wurden keine Gruppen gefunden."
+
+#~ msgid "All Members <span>%s</span>"
+#~ msgstr "Alle Mitglieder <span>%s</span>"
+
+#~ msgid "My Friends <span>%s</span>"
+#~ msgstr "Meine Freunde <span>%s</span>"
+
+#~ msgid "Order By:"
+#~ msgstr "Sortierung nach:"
+
+#~ msgid "Last Active"
+#~ msgstr "Zuletzt aktiv"
+
+#~ msgid "Newest Registered"
+#~ msgstr "Neueste Registrierungen"
+
+#~ msgid "Alphabetical"
+#~ msgstr "Alphabetisch"
+
+#~ msgid "Sorry, no members were found."
+#~ msgstr "Es wurden keine Benutzer gefunden."
+
+#~ msgid "Editing '%s' Profile Group"
+#~ msgstr "Bearbeiten von '%s' Profilgruppe"
+
+#~ msgid "(required)"
+#~ msgstr "(erforderlich)"
+
+#~ msgid "Clear"
+#~ msgstr "Löschen"
+
+#~ msgid ""
+#~ "This field can be seen by: <span class=\"current-visibility-level\">%s</"
+#~ "span>"
+#~ msgstr ""
+#~ "Dieses Feld kann eingesehen werden von: <span class=„current-visibility-"
+#~ "level“>%s</span>"
+
+#~ msgid "Change"
+#~ msgstr "Ändern"
+
+#~ msgid "Who can see this field?"
+#~ msgstr "Wer kann dieses Feld sehen?"
+
+#~ msgid "Close"
+#~ msgstr "Schließen"
+
+#~ msgid "Save Changes"
+#~ msgstr "Änderungen speichern"
+
+#~ msgid "(Edit)"
+#~ msgstr "(Bearbeiten)"
+
+#~ msgid "View Details"
+#~ msgstr "Details anzeigen"
+
+#~ msgid "SKU:"
+#~ msgstr "Artikelnr."
+
+#~ msgid "N/A"
+#~ msgstr "Nicht verfügbar"
+
+#~ msgid "Category:"
+#~ msgid_plural "Categories:"
+#~ msgstr[0] "Kategorie:"
+#~ msgstr[1] "Kategorien:"
+
+#~ msgid "Tag:"
+#~ msgid_plural "Tags:"
+#~ msgstr[0] "Schlagwort:"
+#~ msgstr[1] "Schlagworte:"
+
+#~ msgid "%s customer review"
+#~ msgid_plural "%s customer reviews"
+#~ msgstr[0] "%s Kundenbewertung"
+#~ msgstr[1] "%s Kundenbewertungen"
+
+#~ msgid "Rated %s out of 5"
+#~ msgstr "Bewertet mit %s von 5"
+
+#~ msgid "out of %s5%s"
+#~ msgstr "von %s5%s"
+
+#~ msgid "based on %s customer rating"
+#~ msgid_plural "based on %s customer ratings"
+#~ msgstr[0] "auf der Grundlage von %s Kundenbewertung"
+#~ msgstr[1] "auf der Grundlage von %s Kundenbewertungen"
